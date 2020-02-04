@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fast {
+  position: relative;
+  animation: mymove 1s ease-in-out;
+  
+}
+@keyframes mymove {
+  from {
+    transform: translateX(80px);
+    opacity:0;
+}
+  to {
+    transform: translateX(0px);
+    opacity:1
+  }
+
+}
+
+
+.cool {
+  color: aliceblue;
+  background-color: blue;
+  font-size: 15px;
+  border-radius: 6px;
+  padding:12px;
+  box-shadow: 1px 3px 12px 3px grey;
+  font-size: 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+@keyframes bounce {
+  from {
+      transform: scale(1) rotate(0deg);
+  }
+
+  80% {
+      transform: scale(1.2) rotate(120deg);
+  }
+
+  90% {
+      transform: scale(0.8 rotate(220deg));
+  }
+
+  to {
+      transform: scale(1) rotate(360deg);
+  }
+}
+
+.cool:hover {
+  animation: bounce 1s ease-in-out;
+}

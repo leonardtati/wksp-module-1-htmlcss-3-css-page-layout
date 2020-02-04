@@ -1,0 +1,22 @@
+body{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.alert{
+    display:block;
+    padding:3px;
+    grid-row-gap: 20px ;
+    border: 2px solid;
+    border-radius: 4px;
+    margin: 20px;
+}
+.alert-primary{
+    background-color: rgb(51, 204, 255);
+    color: mediumblue;
+    border-color: rgb(43, 181, 227) ;
+}
+.alert-secondary{
+    background-color: grey;
+    color: black; 
+}

@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+.navigation{
+    height: 30px;
+    text-align: center;
+    background-color: slategray;
+    color: snow;
+}
+.centerpiece{
+    display:flex;
+    align-items: center;
+    flex:1;
+    justify-content: center;
+}
+.information{
+    height: 30px;
+    text-align: center;
+    background-color: slategray;
+    color: snow;
+}
